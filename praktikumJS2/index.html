@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Lanjutan: Manipulasi DOM</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Manipulasi DOM Lanjutan</h1>
+
+    <!-- Daftar Item -->
+    <h2>Daftar Item</h2>
+    <ul id="list">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <button id="addItem">Tambah Item</button>
+    <button id="removeItem">Hapus Item Terakhir</button>
+
+    <!-- Hapus Item Berdasarkan Nomor -->
+    <h2>Hapus Item Berdasarkan Nomor</h2>
+    <input type="number" id="itemNumber" placeholder="Masukkan nomor item yang ingin dihapus" min="1">
+    <button id="removeByNumber">Hapus Item</button>
+
+    <!-- Simpan Nama ke localStorage -->
+    <h2>Simpan Data dengan localStorage</h2>
+    <input type="text" id="username" placeholder="Masukkan nama Anda">
+    <button id="SaveName">Simpan Nama</button>
+    <p id="greeting"></p>
+
+    <!-- Hapus Nama dari localStorage -->
+    <h2>Hapus Nama yang Disimpan</h2>
+    <button id="deleteName">Hapus Nama</button>
+
+    <!-- Muat Data Asinkron -->
+    <h2>Asynchronous JavaScript</h2>
+    <button id="loadData">Muat Data</button>
+    <p id="data"></p>
+</body>
+</html>
